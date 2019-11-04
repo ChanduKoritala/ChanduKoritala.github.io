@@ -94,9 +94,6 @@ nav a {
   border-left: 1px solid #efefef;
 }
 
-nav a:first-child {
-  border-left: 0 none;
-}
 
 /* footer */
 
@@ -220,3 +217,37 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+.navbar-light .navbar-nav .nav-link {
+  color: grey;
+}
+
+.navbar-light .navbar-brand {
+  color: grey;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: grey;
+}
+
+
+.navbar {
+  position: fixed;
+  width: 330px;
+  height: 90px;
+  margin: auto;
+  float: right;
+  padding: .5rem 1rem;
+  overflow: hidden;
+}
+.navbar a:visited {
+  border-bottom: 3px solid red;
+}
+.navbar a:hover {
+  border-bottom: 3px solid teal;
+}
+
+.navbar a:active {
+  border-bottom: 3px solid teal;
+}
+
